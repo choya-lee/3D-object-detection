@@ -1,0 +1,15 @@
+ln -s /data/waymo/* /home/workspace/dataset/
+
+ln -s /data/sensor-fusion-refresh/result-files/* /home/workspace/results/
+
+ln -s /data/sensor-fusion-refresh/midterm-project/pre-trained-models/darknet/* /home/workspace/tools/objdet_models/darknet/pretrained/
+
+ln -s /data/sensor-fusion-refresh/midterm-project/pre-trained-models/fpn-resnet/* /home/workspace/tools/objdet_models/resnet/pretrained/
+
+source /data/virtual_envs/sdc-c2/bin/activate
+
+PYTHONPATH=/data/virtual_envs/sdc-c2/lib/python3.7/site-packages:$PYTHONPATH
+
+cd /home/workspace
+
+clear

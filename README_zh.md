@@ -6,7 +6,7 @@
 
 在本项目中，您将融合来自激光雷达和相机的测量结果，并随时间跟踪车辆。您将使用Waymo Open数据集中的真实数据，检测3D点云中的对象，并应用扩展卡尔曼滤波器进行传感器融合和跟踪。
 
-<img src="E:/Code_files/0_myGitProj/ml-udacity-project-2-3d-object-detection/img/img_title_1.jpeg"/>
+<img src="img/img_title_1.jpeg"/>
 
 该项目由两个主要部分组成：
 
@@ -15,7 +15,7 @@
 
 下图包含组成算法的数据流和各个步骤的概要。
 
-<img src="E:\Code_files\0_myGitProj\ml-udacity-project-2-3d-object-detection\img\img_title_2_new.png"/>
+<img src="img/img_title_2_new.png"/>
 
 此外，项目代码还包含各种任务，这些任务在代码中逐步进行了详细说明。关于算法和任务的更多信息可以在Udacity课堂上找到。
 
